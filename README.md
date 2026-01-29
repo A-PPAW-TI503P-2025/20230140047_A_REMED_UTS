@@ -1,8 +1,7 @@
 
 # Library System - Dokumentasi Aplikasi
 
-Sistem manajemen perpustakaan modern dengan fitur manajemen buku dan validasi peminjaman. Aplikasi ini dibangun menggunakan Node.js, Express, MySQL, dan frontend JavaScript dengan desain warm color palette.
-
+Sistem manajemen perpustakaan modern dengan fitur manajemen buku dan validasi peminjaman. Aplikasi ini dibangun menggunakan Node.js, Express, MySQL.
 ---
 
 ## Fitur Utama
