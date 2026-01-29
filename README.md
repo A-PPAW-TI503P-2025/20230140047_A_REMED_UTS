@@ -69,25 +69,22 @@ Sistem manajemen perpustakaan modern dengan fitur manajemen buku dan validasi pe
 
 ## Antarmuka Pengguna
 
-### 1. Admin Dashboard
+### Dashboard
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69ac3d30-5ddf-4551-9862-db3861bdb53e" />
+
+### 1. Admin 
 
 Dashboard untuk mengelola data buku dan memantau stok secara visual.
 
-<img width="1916" alt="Admin Dashboard 1" src="[https://github.com/user-attachments/assets/efbaf06f-7ca1-4ad0-8d94-9a7160cfb2a9](https://github.com/user-attachments/assets/efbaf06f-7ca1-4ad0-8d94-9a7160cfb2a9)" />
-<img width="1904" alt="Admin Dashboard 2" src="[https://github.com/user-attachments/assets/6794cf0a-40ae-4407-80df-271af90a07de](https://github.com/user-attachments/assets/6794cf0a-40ae-4407-80df-271af90a07de)" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e68425b7-5dff-47be-9ee8-e5a5bb2ea8a5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/91193885-f560-46ab-925f-efaad27a089a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/190d5f36-f4f0-4d30-bdb2-fc26e2d2bbc8" />
 
-### 2. Form Input Data
 
-Tampilan modal untuk menambah atau mengubah informasi buku.
-
-<img width="1919" alt="Form Modal 1" src="[https://github.com/user-attachments/assets/080778ed-79a4-4ced-b8b5-ea15f2545179](https://github.com/user-attachments/assets/080778ed-79a4-4ced-b8b5-ea15f2545179)" />
-<img width="1909" alt="Form Modal 2" src="[https://github.com/user-attachments/assets/0ab122b1-d375-47d4-b26e-06abdb36389d](https://github.com/user-attachments/assets/0ab122b1-d375-47d4-b26e-06abdb36389d)" />
-
-### 3. User Catalog
+### 2. User Catalog
 
 Tampilan sisi peminjam untuk melihat koleksi buku yang tersedia.
-
-<img width="1904" alt="User View" src="[https://github.com/user-attachments/assets/615b86df-f151-4ab9-a7ec-a7ec98c909a1](https://github.com/user-attachments/assets/615b86df-f151-4ab9-a7ec-a7ec98c909a1)" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51d7c61b-c8b2-41c5-94ec-384cb1ac06f3" />
 
 ---
 
