@@ -24,10 +24,10 @@ Sistem manajemen perpustakaan modern dengan fitur manajemen buku dan validasi pe
 | --- | --- | --- | --- | --- |
 | **GET** | `/api/books` | Menampilkan semua buku | - | - |
 | **GET** | `/api/books/:id` | Menampilkan detail buku | - | - |
-| **POST** | `/api/books` | Menambah buku baru | `x-user-role: admin` | `{"title": "Judul", "author": "Penulis", "stock": 10}` |
-| **PUT** | `/api/books/:id` | Mengupdate data buku | `x-user-role: admin` | `{"title": "Judul Baru", "author": "Penulis", "stock": 5}` |
+| **POST** | `/api/books` | Menambah buku baru | `x-user-role: admin` | `{"title": "Judul Buku", "author": "Penulis Buku", "stock": 15}` |
+| **PUT** | `/api/books/:id` | Mengupdate data buku | `x-user-role: admin` | `{"title": "Judul Buku Baru", "author": "Penulis Buku", "stock": 15}` |
 | **DELETE** | `/api/books/:id` | Menghapus buku | `x-user-role: admin` | - |
-| **POST** | `/api/borrow` | Meminjam buku & Lokasi | `x-user-role: user`, `x-user-id: [ID_Angka]` | `{"bookId": 1, "latitude": -6.2088, "longitude": 106.8456}` |
+| **POST** | `/api/borrow` | Meminjam buku & Lokasi | `x-user-role: user`, `x-user-id: [ID_Angka]` | `{"bookId": 1, "latitude": -7.2788, "longitude": 10.8456}` |
 
 ---
 
