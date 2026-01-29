@@ -34,29 +34,36 @@ Sistem manajemen perpustakaan modern dengan fitur manajemen buku dan validasi pe
 
 ## API Endpoints (Postman)
 
+* **Key Value** (Headers)
+<img width="1338" height="382" alt="image" src="https://github.com/user-attachments/assets/f4c11773-3894-4562-a152-a9b4aef09e1b" />
+
 ### 1. Pengujian CRUD Buku (Admin & User)
 
 * **Get All Books** (GET)
 
-<img width="1600" src="[https://github.com/user-attachments/assets/5fe82b15-9a90-4b9f-ac8b-7017a89ae4ec](https://github.com/user-attachments/assets/5fe82b15-9a90-4b9f-ac8b-7017a89ae4ec)" />
+<img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/a4d8ee1e-93c4-409b-b607-214f9d7e2dcf" />
+
+* **Get Books by ID** (GET)
+
+<img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/813c1847-f575-40cd-a5b4-7dc38987f922" />
 
 * **Create Book** (POST - Admin Only)
 
-<img width="1600" src="[https://github.com/user-attachments/assets/a7c696ec-0219-412a-a1a7-41c0c683a375](https://github.com/user-attachments/assets/a7c696ec-0219-412a-a1a7-41c0c683a375)" />
+<img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/a53e03b0-22f8-49fc-a22a-9abd8b524284" />
 
 * **Update Book** (PUT - Admin Only)
 
-<img width="1600" src="[https://github.com/user-attachments/assets/b9571bfd-ef77-4738-86d9-363cf5c81b4c](https://github.com/user-attachments/assets/b9571bfd-ef77-4738-86d9-363cf5c81b4c)" />
+<img width="1600" height="850" alt="image" src="https://github.com/user-attachments/assets/6720e11b-402b-4643-9de1-514286790cda" />
 
 * **Delete Book** (DELETE - Admin Only)
 
-<img width="1600" src="[https://github.com/user-attachments/assets/87dcc9e0-6d58-4c13-b249-4fd8f13151c5](https://github.com/user-attachments/assets/87dcc9e0-6d58-4c13-b249-4fd8f13151c5)" />
+<img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/cf3f1dd9-ed49-457d-9dd3-232e33cbd163" />
 
 ### 2. Pengujian Peminjaman (User)
 
 * **Post Borrow Book** (POST)
 
-<img width="1600" src="[https://github.com/user-attachments/assets/8ddfc676-c3be-42f2-a645-a42b4fb60f15](https://github.com/user-attachments/assets/8ddfc676-c3be-42f2-a645-a42b4fb60f15)" />
+<img width="1600" height="849" alt="image" src="https://github.com/user-attachments/assets/ff55ff36-2400-47c3-9a9f-93cb7ff04c96" />
 
 ---
 
