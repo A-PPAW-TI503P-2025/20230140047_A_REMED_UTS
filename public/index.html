@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Landing Selection -->
+    <div id="role-selection" class="role-overlay">
+        <div class="selection-card">
+            <h1>Library</h1>
+            <p>Silakan pilih akses untuk melanjutkan</p>
+            <div class="role-grid">
+                <div class="role-card" onclick="selectRole('admin')">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Administrator</h3>
+                    <p>Kelola data buku dan stok</p>
+                </div>
+                <div class="role-card" onclick="selectRole('user')">
+                    <i class="fas fa-user"></i>
+                    <h3>User</h3>
+                    <p>Cari dan pinjam buku</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div id="dashboard" style="display: none;">
+        <nav class="top-nav">
+            <div class="nav-left">
+                <span class="logo">Library</span>
+                <span id="role-tag" class="role-tag"></span>
+            </div>
+            <div class="nav-right">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Cari buku..." id="search-input">
+                </div>
+                <button class="btn-logout" onclick="backToRoleSelection()">
+                    <i class="fas fa-sign-out-alt"></i> Keluar
+                </button>
+            </div>
+        </nav>
+
+        <main class="content">
+            <div class="content-header">
+                <h2 id="page-title">Daftar Buku</h2>
+                <div class="header-actions">
+                    <button id="btn-add-book" class="btn-yellow" onclick="openModal()" style="display: none;">
+                        <i class="fas fa-plus"></i> Tambah Buku
+                    </button>
+                    <!-- User specific info -->
+                    <div id="user-geo-info" class="geo-status" style="display: none;">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span id="location-display">Mencari lokasi...</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table id="book-table">
+                    <thead>
+                        <tr id="table-head">
+                            <!-- JS will populate based on role -->
+                        </tr>
+                    </thead>
+                    <tbody id="book-table-body">
+                        <!-- Data will be here -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal Add/Edit (Admin Only) -->
+    <div id="book-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Tambah Buku Baru</h3>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="book-form">
+                <input type="hidden" id="book-id">
+                <div class="form-group">
+                    <label>Judul Buku</label>
+                    <input type="text" id="title" placeholder="Contoh: Laskar Pelangi" required>
+                </div>
+                <div class="form-group">
+                    <label>Penulis</label>
+                    <input type="text" id="author" placeholder="Contoh: Andrea Hirata" required>
+                </div>
+                <div class="form-group">
+                    <label>Jumlah Stok</label>
+                    <input type="number" id="stock" value="10" required>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-secondary" onclick="closeModal()">Batal</button>
+                    <button type="submit" class="btn-primary">Simpan Buku</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
